@@ -10,8 +10,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <ThemeProvider theme={theme}>
     <GlobalStyle />
-    <IssueProvider>
-      <App />
-    </IssueProvider>
+    {/* <IssueProvider githubService={}> */}
+    <App />
+    {/* </IssueProvider> */}
   </ThemeProvider>,
 )

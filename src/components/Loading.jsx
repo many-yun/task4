@@ -1,5 +1,10 @@
 import React from 'react'
+import styled from 'styled-components'
 
 export default function Loading() {
-  return <div>Loading</div>
+  return <LoadingWrapper>Loading...</LoadingWrapper>
 }
+
+const LoadingWrapper = styled.div`
+  text-align: center;
+`
